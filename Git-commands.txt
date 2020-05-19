@@ -1,0 +1,27 @@
+To add or push files and folder into the reposatory:
+
+1. Initiate git into the directory:
+   # git init
+
+2. Clone the repo or run the git remote add(if the branch is new)
+   # git clone repo url
+   # git remote add origin repo-url
+
+3. Add the files and folders.
+   # git add .
+
+4. Commit the changes.
+   # git commit -m "massage describing the commit"
+
+5. Push the repo into the git branch.
+   # git push -u origin master
+
+
+
+ To check the current branch
+ 	#git branch
+
+ To check the status of the added file
+ 	# git status
+
+Also, to know more about other commands run git --help
